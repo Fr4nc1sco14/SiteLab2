@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SiteLab</title>
+    <link rel="shortcut icon" type="imagex/png" href="assets/images/LogoBackGround.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Fontes / Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- top bar -->
+        <div class="data-row">
+            <div class="container data-row-inner">
+                <p>Contacte-nos: <a href="mailto:comercial@sitelab.pt">comercial@sitelab.pt</a></p>
+                <div class="social-box" aria-label="Redes sociais">
+                    <a href="#" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" title="WhatsApp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- navbar / logo -->
+        <div class="data-row2">
+            <div class="container data-row2-inner">
+                <div class="data-row2-logo">
+                    <a href="#" aria-label="SiteLab - Página inicial">
+                        <img src="assets/images/Logo.png" alt="LOGO SiteLab">
+                    </a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Abrir menu"><i class="fa-solid fa-bars"></i></button>
+                <nav class="data-row2-links" aria-label="Navegação principal">
+                    <a href="#">Os Nossos Produtos</a>
+                    <a href="#">Sobre Nós</a>
+                    <a href="#">Blog</a>
+                    <a href="assets/pages/Contact.html">Contactos</a>
+                    <button type="button">Contacte-nos</button>
+                </nav>
+            </div>
+        </div>
+        <!-- hero/banner (slider com 2 banners) -->
+        <div class="hero" role="region" aria-label="Banner principal">
+            <div class="hero-slider" id="heroSlider">
+                <!-- Slide 1 (original) -->
+                <section class="hero-slide active" data-index="0" style="background-image: url('assets/images/BACKGROUND.png');" role="group" aria-roledescription="slide" aria-label="Soluções Web para o seu Negócio - Slide 1">
+                    <div class="hero-content container">
+                        <div class="hero-left">
+                            <p>Soluções Web para o seu Negócio</p>
+                            <h1>Damos ao seu negócio uma vantagem competitiva!</h1>
+                            <button class="btn-primary" type="button">SABER MAIS</button>
+                        </div>
+                        <div class="hero-right" aria-hidden="false">
+                            <img src="assets/images/HERO.png" alt="Imagem ilustrativa do serviço" loading="eager" decoding="async" width="6001" height="4000" id="hero1">
+                        </div>
+                    </div>
+                </section>
+                <!-- Slide 2 (novo) -->
+                <section class="hero-slide" data-index="1" style="background-image: url('assets/images/BACKGROUND2.png');" role="group" aria-roledescription="slide" aria-label="Ferramentas de E-commerce - Slide 2">
+                    <div class="hero-content container">
+                        <div class="hero-left">
+                            <p>Soluções para Comércio Online</p>
+                            <h1>Desenvolvemos as melhores ferramentas de e-commerce para o seu negócio</h1>
+                            <button class="btn-primary" type="button">SAIBA COMO</button>
+                        </div>
+                        <div class="hero-right" aria-hidden="false">
+                            <!-- imagem exactamente igual ao primeiro slide conforme pedido -->
+                            <img src="assets/images/HERO2.png" alt="Imagem ilustrativa do serviço" loading="eager" decoding="async" width="6001" height="4000">
+                        </div>
+                    </div>
+                </section>
+                <!-- Indicators (dots) -->
+                <div class="slider-indicators" role="tablist" aria-label="Indicadores do slider" id="sliderIndicators">
+                    <button class="active" aria-label="Ir para slide 1" role="tab" aria-selected="true"></button>
+                    <button aria-label="Ir para slide 2" role="tab" aria-selected="false"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="about-us-inner container">
+            <p>SOBRE NÓS</p>
+            <h2>Quem é a SiteLab?</h2>
+            <p id="p-aboutus"> Na SiteLab dedicamo-nos ao desenvolvimento de soluções digitais que ajudam empresas a crescer no mundo online. Combinamos tecnologia, criatividade e estratégia para criar plataformas modernas, rápidas e preparadas para o futuro. O nosso compromisso é simples: transformar ideias em soluções digitais eficazes, garantindo que cada cliente tem uma presença online que realmente se destaca. </p>
+        </div>
+    </section>
+    <section class="products">
+        <div class="products-inner container">
+            <p>OS NOSSOS PRODUTOS</p>
+            <h2>Soluções que fazem o seu negócio ter um diferencial!</h2>
+        </div>
+        <div class="product1 container">
+            <div class="product1-left">
+                <img src="assets/images/iconProduct1.png" alt="Icon Product 1">
+                <h2>Web Site - Institucional</h2>
+                <p> Desenvolvemos websites institucionais profissionais, pensados para transmitir credibilidade e reforçar a identidade da sua marca. Criamos páginas rápidas, seguras e totalmente personalizadas para apresentar o seu negócio de forma clara e impactante. Ideal para empresas que procuram fortalecer a presença online e oferecer aos clientes uma experiência simples, intuitiva e informativa em todos os dispositivos. </p>
+                <button class="btn-primary" type="button">SABER MAIS</button>
+            </div>
+            <div class="product1-right">
+                <img src="assets/images/HERO.png" alt="Image Product 1">
+            </div>
+        </div>
+        <div class="product2 container">
+            <div class="product2-left">
+                <img src="assets/images/HERO2.png" alt="Image Product 2">
+            </div>
+            <div class="product2-right">
+                <img src="assets/images/iconProduct2.png" alt="Icon Product 2">
+                <h2>Web Site - E-Commerce</h2>
+                <p> Criamos lojas online completas e otimizadas, preparadas para aumentar vendas e facilitar a gestão do seu negócio. Desde carrinhos de compras intuitivos a métodos de pagamento integrados, oferecemos uma solução robusta que funciona 24/7. Ajudamos a sua marca a vender online com eficiência, segurança e uma experiência de compra que conquista clientes desde o primeiro clique. </p>
+                <button class="btn-primary" type="button">SABER MAIS</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us">
+        <div class="contact-us-inner container">
+            <p>ENTRAR EM CONTACTO</p>
+            <h2>Partilha connosco o que procuras e encontramos a melhor solução para ti.</h2>
+            <button class="btn-primary" type="button">CONTACTAR JÁ</button>
+        </div>
+    </section>
+    <section class="portfolio-section" aria-labelledby="portfolio-title">
+        <div class="portfolio-inner container">
+            <div class="portfolio-inner-text">
+                <p>PORTFÓLIO</p>
+                <h2>Trabalhos que nos orgulham!</h2>
+                <p id="p-aboutus"> Uma seleção de projectos institucionais e lojas online que desenhámos. Clica em cada item para ver detalhes. </p>
+            </div>
+            <div class="portfolio-grid" role="list">
+                <!-- Projeto 1 -->
+                <article class="portfolio-card" role="listitem" data-index="0">
+                    <a href="#" class="portfolio-media" aria-label="Ver projeto Empresa A">
+                        <img src="assets/images/Thumbnail1.png" alt="Screenshot Projeto 1" id="img1">
+                    </a>
+                    <div class="portfolio-body">
+                        <h3>Shoofni — Website Institucional</h3>
+                        <p class="portfolio-tags">Institucional • Design • Performance</p>
+                        <p class="portfolio-excerpt">Website responsivo focado em conversão e apresentação de serviços. Integração de CMS e optimização de velocidade.</p>
+                        <div class="portfolio-actions">
+                           <a class="btn-primary open-project" href="#" role="button">Ver Projeto</a>
+                            <a class="btn-tertiary" href="#" role="button">Contactar</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Projeto 2 -->
+                <article class="portfolio-card" role="listitem" data-index="1">
+                    <a href="#" class="portfolio-media" aria-label="Ver projeto Loja B">
+                        <img src="assets/images/Thumbnail2.png" alt="Screenshot Projeto 2" id="img2">
+                    </a>
+                    <div class="portfolio-body">
+                        <h3>Modulars — E-commerce</h3>
+                        <p class="portfolio-tags">E-commerce • Pagamentos • SEO</p>
+                        <p class="portfolio-excerpt">Plataforma de vendas completa com checkout otimizado, gestão de stock e integrações de pagamento locais.</p>
+                        <div class="portfolio-actions">
+                            <a class="btn-primary open-project" href="#" role="button">Ver Projeto</a>
+                            <a class="btn-tertiary" href="#" role="button">Contactar</a>
+                        </div>
+                    </div>  
+                </article>
+                <!-- Projeto 3 -->
+                <article class="portfolio-card" role="listitem" data-index="2">
+                    <a href="#" class="portfolio-media" aria-label="Ver projeto Startup C">
+                        <img src="assets/images/Thumbnail3.png" alt="Screenshot Projeto 3" id="img3">
+                    </a>
+                    <div class="portfolio-body">
+                        <h3>BulidSouto — Landing & Marca</h3>
+                        <p class="portfolio-tags">Landing • Brand • Conversão</p>
+                        <p class="portfolio-excerpt">Landing page pensada para aquisição, com testes A/B e otimização de funil para captar leads.</p>
+                        <div class="portfolio-actions">
+                            <a class="btn-primary open-project" href="#" role="button">Ver Projeto</a>
+                            <a class="btn-tertiary" href="#" role="button">Contactar</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal (single instance) -->
+    <div class="sl-modal" id="siteLabModal" role="dialog" aria-modal="true" aria-labelledby="slModalTitle" aria-describedby="slModalDesc">
+        <div class="sl-modal-overlay" id="slOverlay" tabindex="-1"></div>
+        <div class="sl-modal-panel" role="document">
+            <button class="sl-modal-close" id="slClose" aria-label="Fechar lightbox">&times;</button>
+
+            <div class="sl-modal-nav" aria-hidden="true">
+                <button class="sl-nav-btn" id="slPrev" aria-label="Projeto anterior (seta esquerda)">&larr;</button>
+                <button class="sl-nav-btn" id="slNext" aria-label="Próximo projeto (seta direita)">&rarr;</button>
+            </div>
+
+            <img src="" alt="" class="sl-modal-image" id="slImage">
+            <div class="sl-modal-caption" id="slModalDesc"></div>
+
+            <div class="sl-modal-controls" id="slControls">
+                <a class="sl-btn" href="#" id="slOpenNew" target="_blank" rel="noopener" title="Abrir imagem numa nova aba">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir em nova aba
+                </a>
+                <a class="sl-btn" href="#" id="slDownload" download title="Descarregar imagem">
+                    <i class="fa-solid fa-download"></i> Descarregar
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Coluna 1 - Logo + texto -->
+            <div class="footer-col">
+                <img src="assets/images/Logo.png" alt="SiteLab Logo" class="footer-logo">
+                <p class="footer-desc"> Desenvolvemos soluções digitais que impulsionam o crescimento do teu negócio. Websites modernos, rápidos e pensados para resultados. </p>
+            </div>
+            <!-- Coluna 2 - Navegação -->
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Os Nossos Produtos</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </div>
+            <!-- Coluna 3 - Contactos -->
+            <div class="footer-col">
+                <h3>Contactos</h3>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:comercial@sitelab.pt"> comercial@sitelab.pt</a></li>
+                    <li><i class="fa-solid fa-phone"></i> +351 910 000 000</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Braga, Portugal</li>
+                </ul>
+            </div>
+            <!-- Coluna 4 - Redes sociais -->
+            <div class="footer-col">
+                <h3>Siga-nos</h3>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 SiteLab — Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <div class="mobile-menu-overlay"></div>
+    <div class="mobile-menu">
+        <button class="mobile-menu-close" aria-label="Fechar menu"><i class="fa-solid fa-x"></i></button>
+        <nav class="mobile-nav">
+            <a href="#">Os Nossos Produtos</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Blog</a>
+            <a href="assets/pages/Contact.html">Contactos</a>
+            <button type="button">Contacte-nos</button>
+        </nav>
+    </div>
+
+    <script>
+        /* Hero slider script (mantido) */
+        (function(){
+            const slider = document.getElementById('heroSlider');
+            const slides = Array.from(slider.querySelectorAll('.hero-slide'));
+            const indicators = Array.from(slider.querySelectorAll('.slider-indicators button'));
+            let current = 0;
+            const total = slides.length;
+            let autoplayInterval = null;
+            const AUTOPLAY_DELAY = 6000; // 6s
+            let wheelDebounce = false;
+            function showSlide(index) {
+                if (index < 0) index = total - 1;
+                if (index >= total) index = 0;
+                slides.forEach((s, i) => {
+                    const isActive = i === index;
+                    s.classList.toggle('active', isActive);
+                    s.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+                });
+                indicators.forEach((btn, i) => {
+                    btn.classList.toggle('active', i === index);
+                    btn.setAttribute('aria-selected', i === index ? 'true' : 'false');
+                    btn.setAttribute('tabindex', i === index ? '0' : '-1');
+                });
+                current = index;
+            }
+            function nextSlide() { showSlide(current + 1); }
+            function prevSlide() { showSlide(current - 1); }
+            // indicators click
+            indicators.forEach((btn, idx) => {
+                btn.addEventListener('click', () => {
+                    showSlide(idx);
+                    restartAutoplay();
+                });
+                btn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        showSlide(idx);
+                        restartAutoplay();
+                    }
+                });
+            });
+            function startAutoplay() {
+                stopAutoplay();
+                autoplayInterval = setInterval(nextSlide, AUTOPLAY_DELAY);
+            }
+            function stopAutoplay() {
+                if (autoplayInterval) {
+                    clearInterval(autoplayInterval);
+                    autoplayInterval = null;
+                }
+            }
+            function restartAutoplay() { startAutoplay(); }
+            slider.addEventListener('focusin', stopAutoplay);
+            slider.addEventListener('focusout', startAutoplay);
+            slider.addEventListener('mouseover', stopAutoplay);
+            slider.addEventListener('mouseleave', startAutoplay);
+            // swipe support
+            let pointerDown = false;
+            let startX = 0;
+            let startY = 0;
+            let startTime = 0;
+            const SWIPE_MIN_DISTANCE = 50; // px
+            const SWIPE_MAX_VERTICAL_DELTA = 75; // px
+            const SWIPE_MAX_TIME = 800; // ms
+            slider.addEventListener('pointerdown', (e) => {
+                pointerDown = true;
+                startX = e.clientX;
+                startY = e.clientY;
+                startTime = Date.now();
+                slider.setPointerCapture && slider.setPointerCapture(e.pointerId);
+            });
+            slider.addEventListener('pointerup', (e) => {
+                if (!pointerDown) return;
+                pointerDown = false;
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+                const dt = Date.now() - startTime;
+                if (Math.abs(dx) > SWIPE_MIN_DISTANCE && Math.abs(dy) < SWIPE_MAX_VERTICAL_DELTA && dt < SWIPE_MAX_TIME) {
+                    if (dx < 0) nextSlide();
+                    else prevSlide();
+                    restartAutoplay();
+                }
+                try { slider.releasePointerCapture && slider.releasePointerCapture(e.pointerId); } catch(err) {}
+            });
+            slider.addEventListener('pointercancel', () => { pointerDown = false; });
+            slider.addEventListener('wheel', (e) => {
+                if (Math.abs(e.deltaX) < Math.abs(e.deltaY)) return;
+                if (Math.abs(e.deltaX) < 15) return;
+                e.preventDefault && e.preventDefault();
+                if (wheelDebounce) return;
+                wheelDebounce = true;
+                if (e.deltaX > 0) nextSlide();
+                else prevSlide();
+                restartAutoplay();
+                setTimeout(() => { wheelDebounce = false; }, 300);
+            }, { passive: false });
+            showSlide(0);
+            startAutoplay();
+            slides.forEach((s, i) => s.setAttribute('data-index', i));
+        })();
+
+        /* Mobile menu script (mantido) */
+        (function() {
+            const toggle = document.querySelector('.mobile-menu-toggle');
+            const close = document.querySelector('.mobile-menu-close');
+            const menu = document.querySelector('.mobile-menu');
+            const overlay = document.querySelector('.mobile-menu-overlay');
+            const links = document.querySelectorAll('.mobile-nav a, .mobile-nav button');
+
+            function closeMenu() {
+                menu.classList.remove('open');
+                overlay.classList.remove('open');
+            }
+
+            if (toggle) toggle.addEventListener('click', () => {
+                menu.classList.add('open');
+                overlay.classList.add('open');
+            });
+            if (close) close.addEventListener('click', closeMenu);
+            if (overlay) overlay.addEventListener('click', closeMenu);
+            links.forEach(link => link.addEventListener('click', closeMenu));
+        })();
+
+        /* Lightbox modal script - opens the SAME thumbnail image in a big modal, keyboard accessible and navigable */
+        (function(){
+            const modal = document.getElementById('siteLabModal');
+            const overlay = document.getElementById('slOverlay');
+            const closeBtn = document.getElementById('slClose');
+            const imgEl = document.getElementById('slImage');
+            const captionEl = document.getElementById('slModalDesc');
+            const openNew = document.getElementById('slOpenNew');
+            const downloadEl = document.getElementById('slDownload');
+            const prevBtn = document.getElementById('slPrev');
+            const nextBtn = document.getElementById('slNext');
+
+            // gather portfolio items
+            const cards = Array.from(document.querySelectorAll('.portfolio-card'));
+            const items = cards.map((card, idx) => {
+                const img = card.querySelector('img');
+                const title = card.querySelector('h3') ? card.querySelector('h3').textContent.trim() : '';
+                return { card, imgSrc: img ? img.getAttribute('src') : '', alt: img ? img.getAttribute('alt') : '', title, idx };
+            });
+
+            let activeIndex = 0;
+            let lastFocused = null;
+
+            function openAt(index){
+                if (!items[index]) return;
+                activeIndex = index;
+                const item = items[index];
+                imgEl.src = item.imgSrc;
+                imgEl.alt = item.alt || item.title || 'Projeto';
+                captionEl.textContent = item.title || '';
+                openNew.href = item.imgSrc;
+                downloadEl.href = item.imgSrc;
+                downloadEl.setAttribute('download', '');
+                modal.classList.add('open');
+                document.body.style.overflow = 'hidden'; // prevent page scroll
+                lastFocused = document.activeElement;
+                closeBtn.focus();
+            }
+
+            function close(){
+                modal.classList.remove('open');
+                document.body.style.overflow = '';
+                // remove src to free memory on very old browsers
+                imgEl.removeAttribute('src');
+                if (lastFocused) lastFocused.focus();
+            }
+
+            function showNext(){ openAt((activeIndex + 1) % items.length); }
+            function showPrev(){ openAt((activeIndex - 1 + items.length) % items.length); }
+
+            // open when clicking "Ver Projeto" buttons
+            document.querySelectorAll('.open-project').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const card = btn.closest('.portfolio-card');
+                    const idx = items.find(i => i.card === card)?.idx ?? 0;
+                    openAt(idx);
+                });
+            });
+
+            // open when clicking thumbnail image / media
+            document.querySelectorAll('.portfolio-media').forEach(media => {
+                media.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const card = media.closest('.portfolio-card');
+                    const idx = items.find(i => i.card === card)?.idx ?? 0;
+                    openAt(idx);
+                });
+                // allow Enter/Space on the anchor
+                media.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        const card = media.closest('.portfolio-card');
+                        const idx = items.find(i => i.card === card)?.idx ?? 0;
+                        openAt(idx);
+                    }
+                });
+            });
+
+            // overlay & close
+            overlay.addEventListener('click', close);
+            closeBtn.addEventListener('click', close);
+
+            // navigation
+            nextBtn.addEventListener('click', (e) => { e.stopPropagation(); showNext(); });
+            prevBtn.addEventListener('click', (e) => { e.stopPropagation(); showPrev(); });
+
+            // keyboard controls
+            document.addEventListener('keydown', (e) => {
+                if (!modal.classList.contains('open')) return;
+                if (e.key === 'Escape') {
+                    e.preventDefault(); close();
+                } else if (e.key === 'ArrowRight') {
+                    e.preventDefault(); showNext();
+                } else if (e.key === 'ArrowLeft') {
+                    e.preventDefault(); showPrev();
+                } else if (e.key === 'Tab') {
+                    // simple focus trap inside modal panel
+                    const focusable = modal.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])');
+                    if (focusable.length === 0) return;
+                    const first = focusable[0];
+                    const last = focusable[focusable.length - 1];
+                    if (e.shiftKey && document.activeElement === first) {
+                        e.preventDefault();
+                        last.focus();
+                    } else if (!e.shiftKey && document.activeElement === last) {
+                        e.preventDefault();
+                        first.focus();
+                    }
+                }
+            });
+
+            // make sure to close modal programmatically when resizing / orientation change (to avoid weird states)
+            window.addEventListener('orientationchange', () => { if (modal.classList.contains('open')) close(); });
+
+            // enhance accessibility: announce when opened
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach(m => {
+                    if (m.attributeName === 'class') {
+                        if (modal.classList.contains('open')) {
+                            modal.setAttribute('aria-hidden', 'false');
+                        } else {
+                            modal.setAttribute('aria-hidden', 'true');
+                        }
+                    }
+                });
+            });
+            observer.observe(modal, { attributes: true });
+
+            // avoid page anchors (existing anchors href="#") jumping
+            document.querySelectorAll('a[href="#"]').forEach(a => {
+                a.addEventListener('click', (e) => e.preventDefault());
+            });
+        })();
+    </script>
+</body>
+</html>
